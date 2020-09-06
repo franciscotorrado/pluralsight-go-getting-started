@@ -2,8 +2,16 @@
 
 This repository contents the source files that I created while taking the course.
 
-In this repository you will not find any test, only simple files to learn the basics.
+In this repository you will not find any test with golang tools, only simple files to learn the basics.
 
 I hope to increase my knowledge of Golang and be able to create future code using TDD.
 
 The content of each file is not original I just followed the instructions.
+
+#### Build and run
+
+##### build exe file
+`go build . `
+
+##### run webservice without build
+`go run MyModules/DemoModule1Test/webservice` 
