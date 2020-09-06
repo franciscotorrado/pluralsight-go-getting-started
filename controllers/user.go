@@ -13,7 +13,7 @@ type userController struct {
 }
 
 func (uc userController) ServeHTTP(w http.ResponseWriter, r *http.Request) {
-	if r.URL.Path == "/user" {
+	if r.URL.Path == "/users" {
 		switch r.Method {
 		case http.MethodGet:
 			uc.getAll(w, r)
