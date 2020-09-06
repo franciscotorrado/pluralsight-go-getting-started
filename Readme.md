@@ -16,5 +16,7 @@ The content of each file is not original I just followed the instructions.
 ##### run webservice without build
 `go run MyModules/DemoModule1Test/webservice` 
 
-_Finally, I add to the repository a collection of Postman tests. I know the current folder is not in best place. I will look for information about good folder structure in Go projects._
-I suppose that src and tests folder may have a common root and exclude tests folder from build.
+_Finally, I add to the repository a collection of Postman tests. I know the current folder is not in best place and should look for information about good folder structure in Go projects._
+I suppose that src and tests folders may have a common root and exclude tests folders from build.
+
+The current project has no errors control and log.
