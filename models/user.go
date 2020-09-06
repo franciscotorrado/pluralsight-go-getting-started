@@ -49,7 +49,7 @@ func UpdateUser(u User) (User, error) {
 	return User{}, fmt.Errorf("User with ID '%v' not found ", u.ID)
 }
 
-func RemoveUser(id int) error {
+func RemoveUserById(id int) error {
 	for i, u := range users {
 		if u.ID == u.ID {
 			users = append(users[:i], users[i+1:]...)
